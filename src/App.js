@@ -1,9 +1,16 @@
-import logo from "./logo.svg";
+import Search from "./Search";
+import Results from "./Results";
+import "bootstrap/dist/css/bootstrap.css";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <div className="weather-app-wrapper">
+        <Search />
+        <Results />
+      </div>
+
       <footer>
         This project was coded by{" "}
         <a
