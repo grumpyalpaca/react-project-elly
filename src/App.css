@@ -5,7 +5,25 @@
   padding: 25px 25px 5px 25px;
   border-radius: 15px;
 }
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
 footer {
   color: #212529;
   text-align: center;
+  font-size: 12px;
+}
+a {
+  color: #7f868a;
+  text-decoration: none;
+  font-weight: 600;
+}
+a:hover {
+  color: #ec6e4c;
+  text-decoration: none;
+  cursor: pointer;
 }
