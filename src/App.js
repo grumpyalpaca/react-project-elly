@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <footer>
+        This project was coded by{" "}
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://www.shecodes.io/graduates/33063-elizabeth-ballesteros-bosworth"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
-          Learn React
+          Elizabeth Ballesteros Bosworth
         </a>
-      </header>
+        , is open-sourced on{" "}
+        <a
+          href="https://github.com/grumpyalpaca/react-project-elly"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>{" "}
+        and website hosted on{" "}
+        <a
+          href="https://react-elly-project.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Netlify
+        </a>
+        .
+      </footer>
     </div>
   );
 }
