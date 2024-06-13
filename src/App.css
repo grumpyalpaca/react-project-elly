@@ -4,26 +4,28 @@
 }
 
 .App footer {
-  font-size: 11px;
+  font-size: 12px;
+  font-weight: 500;
   margin: 10px 0;
+  color: rgba(210, 180, 255, 0.9);
 }
 
 .weather-app-wrapper {
   max-width: 600px;
   margin: 120px auto;
-  background-color: #f2f2f1;
+  background-color: #2b1d32;
   padding: 25px 25px 5px 25px;
   border-radius: 15px;
 }
 
 a {
-  color: #7f868a !important; /* Ensure your custom color is applied */
+  color: #9738c0 !important; /* Ensure your custom color is applied */
   text-decoration: none;
   font-weight: 600;
 }
 
 a:hover {
-  color: #ec6e4c !important; /* Ensure hover color is applied */
+  color: #edc4ff !important; /* Ensure hover color is applied */
   text-decoration: none;
   cursor: pointer;
 }
