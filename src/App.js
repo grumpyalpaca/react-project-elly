@@ -1,47 +1,40 @@
-import Search from "./Search";
-import Results from "./Results";
-import "bootstrap/dist/css/bootstrap.css";
+import React from "react";
+import Weather from "./Weather";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <div className="weather-app-wrapper">
-        <div className="weather-app">
-          <Search defaultCity="San Francisco" />
-          <Results />
-        </div>
+      <div className="container">
+        <Weather defaultCity="New York" />
 
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.shecodes.io/graduates/33063-elizabeth-ballesteros-bosworth"
+            href="https://www.delac.io/"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            Elizabeth Ballesteros Bosworth
-          </a>
-          , is open-sourced on{" "}
-          <a
-            href="https://github.com/grumpyalpaca/react-project-elly"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Github
+            Matt Delac
           </a>{" "}
-          and website hosted on{" "}
+          and is{" "}
           <a
-            href="https://react-elly-project.netlify.app/"
+            href="https://github.com/wecodeschool/react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
-            Netlify
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://suspicious-beaver-111c4d.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
           </a>
-          .
         </footer>
       </div>
     </div>
   );
 }
-
-export default App;
